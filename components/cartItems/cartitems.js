@@ -99,7 +99,11 @@ export default function CartItems() {
           <div className="divider"></div>
           <div>Sub Total : {NGnaira.format(cartSum)}</div>
           <p className="text-sm text-gray-400  p-2">
-            Delivery Fee : {NGnaira.format(deliverySum)}
+            {!deliverySum ? (
+              <>Delivery Fee : FREE </>
+            ) : (
+              <>Delivery Fee : {NGnaira.format(deliverySum)}</>
+            )}
           </p>
 
           <div className="mt-3">
