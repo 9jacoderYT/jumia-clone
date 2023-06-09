@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "jumiav3",
+		"path": "../.."
+	},
+	{
+		"name": "lib",
+		"path": "../../../jumiaclone/lib"
+	}
+],
+  "settings": {}
+}
