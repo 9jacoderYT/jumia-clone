@@ -16,7 +16,9 @@ export default function ProductDetail({ details }) {
     setCart(newCart);
   };
 
-  console.log(cart);
+  if (!details) {
+    return null;
+  }
 
   return (
     <div>
