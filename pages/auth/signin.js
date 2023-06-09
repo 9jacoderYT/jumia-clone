@@ -3,7 +3,7 @@ import { getProviders, signIn } from "next-auth/react";
 export default function Signin({ providers }) {
   return (
     <div className="md:max-w-2xl mx-auto p-5" align="center">
-      <img src="/1.png" className="w-[50px]" />
+      <img src="/1.png" className="w-[50px]" alt="image" />
 
       <span className="text-sm">
         Welcome to Jumia Log In with your Google Account to create an account

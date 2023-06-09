@@ -2,11 +2,11 @@ import { cartState } from "../../atom/cartAtom";
 import { useRecoilState } from "recoil";
 import Items from "./items";
 import { useEffect, useState } from "react";
-import { NGnaira, calculateSum } from "@/lib/help";
+import { NGnaira } from "@/lib/help";
 
 import { useSession } from "next-auth/react";
 import { uploadOrder } from "@/lib/uploadOrder";
-import { Box, Modal, Typography } from "@mui/material";
+import { Modal } from "@mui/material";
 import Message from "./message";
 
 export default function CartItems() {
